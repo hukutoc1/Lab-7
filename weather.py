@@ -4,7 +4,7 @@ from pprint import pprint
 # CONSTANTS
 GEO_URL = "http://api.openweathermap.org/geo/1.0/direct?"
 WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "cdcc4fc4fc9e687c7a4662268d33d41d"  # Enter your api-key
+API_KEY = ""  # Enter your api-key
 
 
 def get_coords(city_name) -> dict:
